@@ -25,9 +25,7 @@ const formData = reactive({
 });
 
 const addTask = () => {
-  if (!formData.name) {
-    alert('enter task name')
-  };
+  if (!formData.name) return
 
   const newTask: ITaskProps = {
     id: Date.now(),
