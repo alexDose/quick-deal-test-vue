@@ -75,14 +75,16 @@ const deleteTask = (taskId: number) => {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #fff;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
 }
 
 input {
   height: 20px;
   width: 400px;
-  padding: 0;
-  border: none;
+  padding: 4px;
+  border-radius: 5px;
+  border: 1px solid black;
   outline-color: #bc43c9;
 }
 

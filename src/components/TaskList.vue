@@ -60,7 +60,7 @@ const addTask = () => {
   margin-left: 30px;
   border-radius: 5px;
   border: 1px solid #000;
-  background-color: transparent;
+  background-color: #fff;
   transition: box-shadow 0.2s ease-in-out, transform 0.1s ease-in-out;
 }
 

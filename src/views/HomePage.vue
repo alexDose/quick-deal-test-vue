@@ -12,14 +12,11 @@
 <style scoped>
 .container {
   width: 800px;
-  min-height: 500px;
   border-radius: 15px;
-  background-color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
@@ -27,12 +24,12 @@ h1 {
 }
 
 .btn {
-  border: 1px solid black;
+  border: 1px solid #000;
   width: 200px;
   height: 50px;
   font-size: 20px;
   border-radius: 5px;
-  background-color: transparent;
+  background-color: #fff;
   cursor: pointer;
   margin: 30px;
   transition: box-shadow 0.2s ease-in-out, transform 0.1s ease-in-out;
