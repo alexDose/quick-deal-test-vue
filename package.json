@@ -1,13 +1,11 @@
 {
   "name": "quick-deal-test-vue",
-  "homepage": "https://alexDose.github.io/quick-deal-test-vue",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "sh deploy.sh"
   },
   "dependencies": {
     "core-js": "^3.8.3",
@@ -25,7 +23,8 @@
     "@vue/cli-service": "~5.0.0",
     "sass": "^1.32.7",
     "sass-loader": "^12.0.0",
-    "typescript": "~4.5.5"
+    "typescript": "~4.5.5",
+    "execa": "latest"
   },
   "browserslist": [
     "> 1%",
